@@ -18,7 +18,7 @@ with open('./output/gt.txt', 'a', encoding = 'shift-jis') as f:
         for line in re.findall(r'.{10}', sents):
             line = line + '\n'
             imgN = str(imgNum).zfill(8)
-            t = f'images/{imgN}.png    ' + line
+            t = f'images/{imgN}.png\t' + line
             generator = GeneratorFromStrings(
             [line],
             # blur=2,
