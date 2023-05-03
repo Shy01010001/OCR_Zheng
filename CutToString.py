@@ -31,7 +31,7 @@ while 1:
             if png not in pre_pngs:
                 break
         imgName = png.split('\\')[-1]
-        shutil.copy(png, 'D:/OCR_Zheng/' + imgName)
+        shutil.copy(png, 'C:/Users/sunho/Documents/OCR_Zheng/' + imgName)
         
     
         image = cv2.imread(imgName)
