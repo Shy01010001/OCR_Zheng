@@ -6,5 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-recent_files = ['..\\..\\.spyder-py3\\temp.py', 'untitled0.py', 'CutToString.py', 'untitled2.py', 'TextGet&Clear.py', 'GenerateGt.py', '..\\..\\..\\..\\OCR_Zheng\\GtGenerate.py']
+recent_files = ['untitled0.py', 'CutToString.py', 'ReadGtTxt.py', 'TextGet&Clear.py', 'GenerateGt.py', '..\\..\\..\\OCR_Zheng\\GtGenerate.py']
 
